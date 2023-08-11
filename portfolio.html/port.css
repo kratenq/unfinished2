@@ -1,0 +1,155 @@
+
+
+body{
+    height: 1000px;
+    background-color: #393E46;
+    
+    background-size: cover;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li:not(:last-child){
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    height:50px;
+    padding: 0 20px;
+    background-color: transparent;
+    text-align: center;
+    color:#fff ;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    transition: 300ms all ;
+ 
+}
+nav ul li a:hover{
+    background-color:transparent;
+    transform: translate(5px, 10px);
+    
+   
+
+}
+
+
+
+.container {
+    text-align: left;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    padding-left: 220px;
+    padding-right: 590px;
+   margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1; 
+   
+}
+
+.home_title-color{
+    color: #00ADB5;
+}
+
+.logo {
+    float: left;
+    width: 10px;
+    height: 5px;
+    margin: -65px 10px;
+    mix-blend-mode: darken;
+}
+
+.social-media{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+  
+}
+.social-media div{
+    display: inline;
+}
+.social-media div a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    margin-top:200px;
+    margin-left: 40px;
+    z-index: 10;
+}
+.social-media .twitter a:hover{
+    background: #00acee;
+}
+.social-media .instagram a:hover{
+    background: #DD2A7B;
+}
+.social-media .linkedin a:hover{
+    background: #0e76a8;
+}
+.social-media .github a:hover{
+    background: #171515;
+}
+.social-media .stackoverflow a:hover{
+    background: #ef8236;
+}
+.social-media a i{
+    transition: 0.5s all;
+}
+.social-media a:hover > i{
+    transform: scale(1.2) rotate(360deg);
+}
+.ben {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   padding-right: -1000px;
+   margin-left: 400px;
+
+   padding-top: 90px;
+   z-index: 5;
+
+
+}
+
+.ben img{
+    
+    border-radius: 18%;
+    transition: 300ms;
+    height: 100%;
+    width: 40%;
+    cursor: pointer;
+    filter: grayscale(0%);
+
+
+    
+ 
+
+}
+.ben img:hover{
+    transform: scale(1.2);
+
+
+    filter: grayscale(80%);
+}
+
+
